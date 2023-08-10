@@ -8,7 +8,7 @@ function saludar(){
 
 boton.addEventListener("click", function(event) {
 event.stopPropagation();
-}
+});
 
 div.addEventListener("click", saludar);
 });
